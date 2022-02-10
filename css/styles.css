@@ -37,10 +37,7 @@ a:visited {
   color: black;
 }
 
-/* Extra small devices (portrait phones, less than 576px)
-No media query for `xs` since this is the default in Bootstrap */
-
-/* Example Syntax */
+h1{color:black}
 
 
 #sec_lan {
@@ -74,6 +71,11 @@ No media query for `xs` since this is the default in Bootstrap */
     font-family: 'Reggae One', cursive;
     color:white
 }
+
+/* Extra small devices (portrait phones, less than 576px)
+No media query for `xs` since this is the default in Bootstrap */
+
+/* Example Syntax */
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
