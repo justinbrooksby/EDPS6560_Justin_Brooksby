@@ -8,6 +8,7 @@
 	--main-font-tertiary: "Comfortaa", cursive;
     --font-family1: 'Reggae One', cursive;
     --font-family2: 'Rowdies', cursive;
+    
 	/* Colors */
 	--main-color-gray: #485359;
 	--main-color-white: #ffffff;
@@ -29,28 +30,49 @@
     --ravenclaw-blue: #0E1A40;
     --ravenclaw-bronze: #946B2D;
 }
+a:link {
+  color: black;
+}
+a:visited {
+  color: black;
+}
 
 /* Extra small devices (portrait phones, less than 576px)
 No media query for `xs` since this is the default in Bootstrap */
 
 /* Example Syntax */
 
+
 #sec_lan {
-	height: 200vh;
+	height: 100vh;
 	background-color: var(--main-color-white);
+    font-family: 'Reggae One', cursive;
+    
+}
+
+#sec_lan_header {
+	height: 10vh;
+	background-color: var(--gryffindor-gold);
     font-family: 'Reggae One', cursive;
 }
 
 #sec_lan_sec1 {
-	height: 100vh;
+	height: 75vh;
 	background-color: var(--main-color-white);
     font-family: 'Reggae One', cursive;
 }
 
 #sec_nav {
 	height: 25vh;
-	background-color: var(--main-color-dark);
+	background-color: var(--main-color-dark3);
     font-family: 'Rowdies', cursive;
+}
+
+#sec_lan_sec2 {
+	height: 30vh;
+	background-color: var(--gryffindor-red);
+    font-family: 'Reggae One', cursive;
+    color:white
 }
 
 /* Small devices (landscape phones, 576px and up) */
