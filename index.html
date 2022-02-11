@@ -30,26 +30,25 @@
 	</head>
 
 	<body>
-		<!-- Welcome to EDPS 6560 Week 5 - 
-            This is an example comment!
-        -->
-		<div id="sec_lan" class="container-fluid">
-			<div id="sec_lan_header" class="row justify-content-between align-items-center">
-				<div class="col-auto">
-					<h1><strong>Harry Potter</strong></h1>
+		<!-- Welcome to EDPS 6560 Week 5 - This is an example comment!-->
+        
+		<div id="sec_lan" class="container-fluid"> <!-- This is where I define my main container for the entire website -->
+            <div id="sec_lan_header" class="row justify-content-between align-items-center"><!-- This is my first row, set this before column. Using bootstrap code to align items -->
+				<div class="col-auto"><!-- This is my first column nexted in that first row. Auto seperates my colums, see bootstrap documentation on margin utilities -->
+					<h1><strong>Harry Potter</strong></h1><!-- This is text in that first column -->
 				</div>
-				<div class="col-2">
-					<a href="contact.html"><i class="fa-brands fa-earlybirds"></i> Contact Me</a>
+				<div class="col-auto"><!-- This is my second column within my first row -->
+					<a href="contact.html"><i class="fa-brands fa-earlybirds"></i> Contact Me</a><!-- This is the text in my second column in the first row. Icon from Font Awesome -->
 				</div>
-			</div>
-			<div id="sec_lan_sec1" class="row justify-content-around align-items-center">
-				<div class="col-4">
+			</div><!-- This is the end of my first row AND Columns that are nested within it -->
+			
+            <!-- This is my second row, it is still nested within the main container but is apart from the first row -->
+            <div id="sec_lan_sec1" class="row justify-content-around align-items-center">
+				<div class="col-7">
 					<h2>Student of Witchcraft and Wizardry</h2>
-					<h3>Defense Against the Dark Arts | Potions | Herbology</h3>
-					
-                    
+					<h4>Defense Against the Dark Arts | Potions | Herbology</h4>   
 				</div>
-				<div class="col-5">
+				 <div class="col-4 d-none d-md-block"><!-- This column is set up to make the column with the Graphic disappear when it gets smaller than md -->
 					<img src="https://cdn.pixabay.com/photo/2021/01/09/15/05/harry-potter-5902551_960_720.png" width="100%" height="auto" alt="Image by Eleatell from Pixabay" />
 					<!--Image by <https://pixabay.com/users/eleatell-15115856/-->
 				</div>

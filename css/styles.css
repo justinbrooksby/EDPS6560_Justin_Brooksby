@@ -51,14 +51,16 @@ h1{color:black}
     
 }
 
+
 #sec_lan_header {
 	height: 10vh;
 	background-color: var(--gryffindor-gold);
     font-family: 'Reggae One', cursive;
 }
 
+
 #sec_lan_sec1 {
-	height: 75vh;
+	height: 50vh;
 	background-color: var(--main-color-white);
     font-family: 'Reggae One', cursive;
 }
