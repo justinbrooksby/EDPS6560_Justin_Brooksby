@@ -30,11 +30,15 @@
     --ravenclaw-blue: #0E1A40;
     --ravenclaw-bronze: #946B2D;
 }
+
 a:link {
   color: black;
 }
 a:visited {
   color: black;
+}
+a:hover{
+    color: white
 }
 
 h1{color:black}
