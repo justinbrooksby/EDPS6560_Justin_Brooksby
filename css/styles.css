@@ -45,7 +45,7 @@ h1{color:black}
 
 
 #sec_lan {
-	height: 100vh;
+	height: 10vh;
 	background-color: var(--main-color-white);
     font-family: 'Reggae One', cursive;
     
@@ -65,14 +65,9 @@ h1{color:black}
     font-family: 'Reggae One', cursive;
 }
 
-#sec_nav {
-	height: 25vh;
-	background-color: var(--main-color-dark3);
-    font-family: 'Rowdies', cursive;
-}
 
 #sec_lan_sec2 {
-	height: 30vh;
+	height: 40vh;
 	background-color: var(--gryffindor-red);
     font-family: 'Reggae One', cursive;
     color:white
