@@ -103,10 +103,16 @@ No media query for `xs` since this is the default in Bootstrap */
 }
     
 
-/* Extra large devices (large desktops, 1200px and up) The code below tells the font to turn green if the screen size is greater than 1200px */
+/* Extra large devices (large desktops, 1200px and up) Look at the variations to the H1 font wheen the device displays greater than 1200px, */
 @media (min-width: 1200px) {
    html{
     font-size:100%}
     h1{color: var(--slytherin-green);
+        font-family: "Roboto", sans-serif;
+        font-weight: 100;
+        text-transform: uppercase;
+    
+        
+        
 } 
 
