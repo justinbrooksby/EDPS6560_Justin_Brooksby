@@ -1,5 +1,5 @@
 .element1{
-    color:aliceblue;
+    color:black;
     background-color:blue;
     width: 300px;
     height: 300px;
@@ -15,6 +15,7 @@
 }
 
 .Scale{
+    color:white;
     background-color:purple;
     width: 300px;
     height:300px;
