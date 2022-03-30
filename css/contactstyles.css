@@ -29,8 +29,8 @@
     .child-three{
         color: white;
         position: absolute;
-        bottom: 10px;
-        left: 10px;
+        bottom: 100px;
+        left: 25px;
         font-family: 'Reggae One', cursive;
         justify-content: space-around;
     }
