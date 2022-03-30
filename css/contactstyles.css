@@ -15,7 +15,7 @@
     }
 
     .child-two{
-        background-image:url("../img/potter_image.png")
+        background-image:url("../img/potter_image.png");
         background-size: 300px auto;
         background-repeat:no-repeat;
         background-position: center;
