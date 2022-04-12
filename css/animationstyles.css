@@ -8,19 +8,51 @@
 .child{
     height: 50%;
     width: 50%;
-    background-color: red;
+    background-color: mediumpurple;
+    transition: transform 1s linear .5s;
+    
 }
 
 .parent:hover .child{
-    transform: translateX(100%)
+    background-color: aqua;
+    transform: translateX(100%);
 }
 
 
 
-/*
+
+.parentanimate{
+    width: 400px;
+    height: 400px;
+    background-color: green;
+    
+}
+
+.childanimate{
+    height: 50%;
+    width: 50%;
+    background-color: gray;
+    background-image:url("../img/bike2.jpg");
+    background-size: 200px auto;
+    background-repeat:no-repeat;
+    background-position: center;
+    animation: left-to-right 1s ease-in forwards infinite alternate 500ms;
+}
+
+.parentanimate:hover .childanimate{
+    animation-play-state: paused;
+}
+
+@keyframes left-to-right{
+    0%{background-color: red; transform: translatex(0%);}
+    33%{transform: translateY(100%);}
+    66%{transform: translateX(100%)translateY(100%);}
+    100%{background-color: cadetblue; transform: translatex(100%);}
+}
+
 .container {
   width: 100vw;
-  height: 100vh;
+  height: 90vh;
 }
 
 .box {
